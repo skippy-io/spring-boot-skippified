@@ -56,6 +56,9 @@ public class R2dbcScriptDatabaseInitializer extends AbstractScriptDatabaseInitia
 
 	@Override
 	protected void runScripts(Scripts scripts) {
+		if (true) {
+			return;
+		}
 		ResourceDatabasePopulator populator = new ResourceDatabasePopulator();
 		populator.setContinueOnError(scripts.isContinueOnError());
 		populator.setSeparator(scripts.getSeparator());
