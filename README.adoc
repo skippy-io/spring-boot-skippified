@@ -1,6 +1,6 @@
 # Skippifying Spring Boot
 
-For used in the tutorial https://www.skippy.io/posts/skippifying-spring-boot.
+Fork used in the tutorial https://www.skippy.io/posts/skippifying-spring-boot.
 
 ## Highlights
 - Spring Boot can be skippified using 5 lines of configuration changes.
