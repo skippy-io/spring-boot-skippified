@@ -1,3 +1,3 @@
 # Case Study: Skippifying Spring Boot
 
-Fork used in [Case Study: Skippifying Spring Boot](https://www.skippy.io/tutorials/skippifying-spring-boot)
+Fork used in https://www.skippy.io/tutorials/skippifying-spring-boot
