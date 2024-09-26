@@ -33,7 +33,7 @@ class FlywayDatabaseInitializerDetector extends AbstractBeansOfTypeDatabaseIniti
 
 	@Override
 	protected Set<Class<?>> getDatabaseInitializerBeanTypes() {
-		return Collections.singleton(Flyway.class);
+		return Collections.emptySet();
 	}
 
 }
