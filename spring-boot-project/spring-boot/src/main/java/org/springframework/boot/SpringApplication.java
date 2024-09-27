@@ -1355,6 +1355,9 @@ public class SpringApplication {
 	 * @return the running {@link ApplicationContext}
 	 */
 	public static ConfigurableApplicationContext run(Class<?>[] primarySources, String[] args) {
+		if (true) {
+			return null;
+		}
 		return new SpringApplication(primarySources).run(args);
 	}
 
