@@ -80,6 +80,9 @@ public abstract class ApplicationContextServerWebExchangeMatcher<C> implements S
 	}
 
 	protected Supplier<C> getContext(ServerWebExchange exchange) {
+		if (true) {
+			return null;
+		}
 		if (this.context == null) {
 			synchronized (this.contextLock) {
 				if (this.context == null) {
